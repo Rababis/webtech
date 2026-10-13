@@ -37,8 +37,8 @@ Bij welke vraag zat je fout, en wat was de reden? (Alles juist? Welke vraag duur
 
 ## 6. Je site
 
-- Welke drie waarden staan in je tokenblok, en waarom die?
-- Wat verandert er in je site als je één token wijzigt?
+- Welke drie waarden staan in je tokenblok, en waarom die? ik koos achtergrond, tekst en accent, omdat ik zo de kleuren van mijn website makelijk kan aanpassen.
+- Wat verandert er in je site als je één token wijzigt? Als ik één token wijzig, verandert die kleur overal op mijn website waar dat token gebruikt wordt.
 
 ## Thuis: R2.3 (met AI)
 
