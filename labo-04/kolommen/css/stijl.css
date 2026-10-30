@@ -1,0 +1,32 @@
+/* stijl.css - labo 4, kolommen (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+--kleur1: darkturquoise;
+--kleur2: darkviolet;
+--kleur3: deepskyblue;
+}
+
+/* === your rules === */
+main{
+    display: flex;
+    gap: 1rem;
+    margin: 10vh 4vw;
+}
+main div {
+    flex: 1;
+    height: 40vh;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}  
+main div:first-child{
+    background-color: var(--kleur1);
+}
+ main div:last-child {
+    background-color: var(--kleur3);
+ }
+ main div:nth-child(2) {
+    flex: 2;
+    background-color: var(--kleur2);
+ }

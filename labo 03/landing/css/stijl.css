@@ -1,0 +1,55 @@
+/* stijl.css - labo 3, landing (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+
+}
+
+/* === your rules === */
+body{
+    background-color: #c8b8ff;
+    color: black;
+}
+.banner {
+    background-color: #5555ff;
+}
+main {
+    background-color: #779cee;
+    min-height: 80vh;
+    text-align: left;
+}
+nav li{
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+.knop {
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+}
+.afbeelding {
+    width: 70%;
+    display: inline-block;
+    vetical-align: top;
+   } 
+     article {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+    }
+.banner a:hover,
+.banner a:focus,
+nav a:hover,
+nav a:focus,
+.knop:hover,
+.knop:focus {
+    background-color: #333333;
+    .banner a:hover,
+    .banner a:focus,
+    nav a:hover,
+    nav a:focus {
+        text-decoration: underline;
+    }
